@@ -2,4 +2,4 @@
 
 Caching proxy server
 
-[Diagram](./docs/caching-proxy-server.png)
+![Diagram](./docs/caching-proxy-server.png)
