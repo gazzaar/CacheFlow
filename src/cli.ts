@@ -3,7 +3,8 @@ import { Command } from 'commander';
 import { startServer } from './index';
 import { validateArguments } from './util/validateArgument';
 import { clearCache } from './cacheManager';
-
+const figlet = require('figlet');
+console.log(figlet.textSync('Caching Proxy'));
 const program = new Command();
 
 program
