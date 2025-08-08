@@ -2,12 +2,16 @@
   "name": "cacheflow",
   "version": "1.0.0",
   "description": "Caching proxy server",
-  "main": "index.js",
+  "main": "./build/cli.js",
+  "bin": {
+    "caching-proxy": "./build/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev src/server.ts",
+    "tsc": "tsc",
+    "dev": "ts-node-dev src/cli.ts",
     "lint": "eslint .",
-    "start": "node build/server.js"
+    "start": "node build/index.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +35,8 @@
     "typescript-eslint": "^8.39.0"
   },
   "dependencies": {
+    "axios": "^1.11.0",
+    "commander": "^14.0.0",
     "express": "^5.1.0"
   }
 }
