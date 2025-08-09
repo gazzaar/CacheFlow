@@ -4,7 +4,7 @@ import { startServer } from './index';
 import { validateArguments } from './util/validateArgument';
 import { clearCache } from './cacheManager';
 const figlet = require('figlet');
-console.log(figlet.textSync('Caching Proxy'));
+console.log(figlet.textSync('CacheFlow'));
 const program = new Command();
 
 program
