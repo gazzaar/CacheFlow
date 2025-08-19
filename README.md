@@ -2,6 +2,12 @@
 
 A high-performance CLI caching proxy server that forwards requests to origin servers and caches responses for improved performance. When the same request is made again, CacheFlow returns the cached response instead of forwarding to the origin server.
 
+## Demo
+
+![Demo](./assets/caching-proxy.mov)
+
+## Architecture
+
 ![Diagram](./docs/caching-proxy-server.png)
 
 ```mermaid
